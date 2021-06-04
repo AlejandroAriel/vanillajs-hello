@@ -36,3 +36,12 @@ div {
   margin-top: 3%;
   margin-left: 48%;
 }
+.rojo {
+  color: red;
+  font-size: 600%;
+}
+
+.negro {
+  color: black;
+  font-size: 600%;
+}
