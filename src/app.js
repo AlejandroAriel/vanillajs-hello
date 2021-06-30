@@ -16,8 +16,19 @@ function CambioColor(element, x) {
   }
 }
 
+//var llamado = ["A", 2, 3, 4, 5, 6, 7, 8, 9, 10, "J", "Q", "K"];
+
 function getRandomNum() {
-  return Math.floor(Math.random() * (12 - 1)) + 1;
+  var num = Math.floor(Math.random() * (14 - 1)) + 1;
+  if (num === 11) {
+    return "J";
+  } else if (num === 12) {
+    return "Q";
+  } else if (num === 13) {
+    return "K";
+  } else {
+    return num;
+  }
 }
 
 const cartas = { diamante: "♦", corazones: "♥", picas: "♠", trebol: "♣" };
